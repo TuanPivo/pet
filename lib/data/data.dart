@@ -1,0 +1,28 @@
+import 'package:apporder/provider/navigation_provider.dart';
+
+List<NavigationProvider> menuItems = [
+    NavigationProvider(MenuType.Home,
+        title: 'Home', imageSource: 'assets/clock_icon.png'),
+    NavigationProvider(MenuType.Products,
+        title: 'Products', imageSource: 'assets/timer_icon.png'),
+    NavigationProvider(MenuType.Profile,
+        title: 'Profile', imageSource: 'assets/timer_icon.png'),
+    NavigationProvider(MenuType.Cart,
+        title: 'Cart', imageSource: 'assets/alarm_icon.png'),
+    NavigationProvider(MenuType.Bill,
+        title: 'Bill', imageSource: 'assets/timer_icon.png'),
+    NavigationProvider(MenuType.Details,
+        title: 'Details', imageSource: 'assets/timer_icon.png'),
+    NavigationProvider(MenuType.DetailNews,
+        title: 'DetailNews', imageSource: 'assets/timer_icon.png'),
+    NavigationProvider(MenuType.DetailBil,
+        title: 'DetailBill', imageSource: 'assets/timer_icon.png'),
+    NavigationProvider(MenuType.Favourite,
+        title: 'Favourite', imageSource: 'assets/timer_icon.png'),
+    NavigationProvider(MenuType.Payment,
+        title: 'Payment', imageSource: 'assets/timer_icon.png'),
+    NavigationProvider(MenuType.Product,
+        title: 'Product', imageSource: 'assets/timer_icon.png'),
+    NavigationProvider(MenuType.Reviews,
+        title: 'Reviews', imageSource: 'assets/timer_icon.png'),
+  ];
